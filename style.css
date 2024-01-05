@@ -119,6 +119,41 @@ nav {
     border: 2px #E6E6E6 solid;
     border-top: none;
 }
+.top-container,
+.bottom-container  {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px 0px;
+}
+.top-container {
+    margin-top: 64px;
+}
+.bottom-container {
+    margin-top: 24px;
+}
+.menu-option {
+    display: flex;
+    gap: 12px;
+    padding: 8px 0px;
+    padding-left: 8px;
+    margin: 0px 12px;
+}
+.menu-option:hover {
+    cursor: pointer;
+}
+.menu-text {
+    font-family: "inter-regular";
+    font-size: 1rem;
+
+}
+.dashboard-option {
+    background-color: #0177CB;
+    border-radius: 8px;
+}
+.dashboard-option .menu-text {
+    color: white;
+}
 
 .content-container {
     background-color: #F0F0F0;
