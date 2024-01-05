@@ -69,6 +69,7 @@ header {
     align-items: center;
     border: 2px #E6E6E6 solid;
     border-left: none;
+    
 }
 .search-bar {
     display: flex;
@@ -85,10 +86,38 @@ header {
     color: #717171;
 
 }
+.profile-container {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 36px;
+}
+.bell-container {
+    border-radius: 50%;
+    border: 1px #cfcfcf solid;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-picture {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-left: 32px;
+}
+.profile-name {
+    font-family: "inter-regular";
+    font-size: 1rem;
+    justify-self: flex-end;
+    margin-left: 16px;
+}
 
 nav {
     background-color: #FFFFFF;
-
+    border: 2px #E6E6E6 solid;
+    border-top: none;
 }
 
 .content-container {
