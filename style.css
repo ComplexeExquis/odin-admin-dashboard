@@ -157,4 +157,59 @@ nav {
 
 .content-container {
     background-color: #F0F0F0;
+    padding-top: 72px;
+    padding-left: 40px;
+    display: flex;
+    gap: 20px;
+}
+.content-title {
+    font-family: "inter-regular";
+    font-size: 1.25rem;
+}
+.projects-container {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 16px;
+}
+.project-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 376px;
+    margin-top: 12px;
+    background-color: #F8F8F8;
+    padding: 24px 12px 24px 24px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blue-rectangle-thing {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #0177CB;
+    width: 12px;
+    height: 100%;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.project-title {
+    
+    font-family: "inter-medium";
+    font-size: 1rem;
+}
+.project-description {
+    margin-top: 4px;
+    font-family: "inter-regular";
+    font-size: 0.75rem;
+    text-align: justify;
+}
+.project-actions-container {
+    margin-top: 8px;
+    display: flex;
+    gap: 24px;
+    justify-content: flex-end;
+}
+.project-action:hover {
+    cursor: pointer;
 }
