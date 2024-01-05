@@ -159,6 +159,7 @@ nav {
     background-color: #F0F0F0;
     padding-top: 72px;
     padding-left: 40px;
+    padding-bottom: 80px;
     display: flex;
     gap: 20px;
 }
@@ -179,7 +180,7 @@ nav {
     max-width: 376px;
     margin-top: 12px;
     background-color: #F8F8F8;
-    padding: 24px 12px 24px 24px;
+    padding: 24px 12px 0px 24px;
     border-radius: 16px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -194,21 +195,24 @@ nav {
     border-bottom-left-radius: 16px;
 }
 .project-title {
-    
     font-family: "inter-medium";
     font-size: 1rem;
 }
 .project-description {
     margin-top: 4px;
+    margin-bottom: 52px;
     font-family: "inter-regular";
     font-size: 0.75rem;
     text-align: justify;
 }
 .project-actions-container {
-    margin-top: 8px;
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
     display: flex;
     gap: 24px;
     justify-content: flex-end;
+    
 }
 .project-action:hover {
     cursor: pointer;
