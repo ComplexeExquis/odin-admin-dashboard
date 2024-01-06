@@ -217,3 +217,65 @@ nav {
 .project-action:hover {
     cursor: pointer;
 }
+
+.announcement-card {
+    margin-top: 12px;
+    max-width: 224px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F8F8F8;
+    padding: 20px;
+}
+.announcement-title {
+    font-family: "inter-medium";
+    font-size: 0.75rem;
+}
+.announcement-description {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    text-align: justify;
+    font-family: "inter-regular";
+    font-size: 0.75rem;
+}
+.seperator {
+    height: 2px;
+    background-color: #D9D9D9;
+    margin-bottom: 12px;
+}
+
+.trending-title {
+    margin-top: 24px;
+
+}
+.trending-card {
+    max-width: 224px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F8F8F8;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.individual-user {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.user-profile-picture {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-id {
+    font-family: "inter-medium";
+    font-size: 0.5rem;
+}
+.user-app-name {
+    font-family: "inter-light";
+    font-size: 0.5rem;
+}
+
